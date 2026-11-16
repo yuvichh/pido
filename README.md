@@ -21,7 +21,7 @@ A powerful and fast command-line tool for compressing your files. `pido` handles
 You can install `pido` with a single command. This will download the latest binary from the GitHub releases and move it to a common executable path, making it available system-wide.
 
 ```sh
-curl -sL https://github.com/Yuvraj-cyborg/pido/releases/latest/download/pido-amd64-darwin -o /usr/local/bin/pido && chmod +x /usr/local/bin/pido
+curl -sL https://github.com/yuvichh/pido/releases/latest/download/pido-amd64-darwin -o /usr/local/bin/pido && chmod +x /usr/local/bin/pido
 ```
 _Note: For Linux, replace `pido-amd64-darwin` with `pido-amd64-linux`._
 
@@ -29,7 +29,7 @@ You may need to run the command with `sudo` if you don't have write permissions 
 
 ### Windows
 
-1.  Download the latest `pido.exe` from the [Releases page](https://github.com/Yuvraj-cyborg/pido/releases).
+1.  Download the latest `pido.exe` from the [Releases page](https://github.com/yuvichh/pido/releases).
 2.  Place the `pido.exe` file in a directory of your choice (e.g., `C:\Program Files\pido`).
 3.  Add that directory to your system's `PATH` environment variable to run `pido` from any terminal.
 
@@ -75,7 +75,7 @@ If you prefer to build `pido` from the source, you'll need to have Go installed 
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/Yuvraj-cyborg/pido.git
+    git clone https://github.com/yuvichh/pido.git
     cd pido
     ```
 
